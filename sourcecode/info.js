@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 
-
+console.log("hello");
 var customerController=function (req, res) {
 
   var customers=[
